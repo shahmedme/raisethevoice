@@ -1,1 +1,1 @@
-web: cd raisethevoice/server && pip install -r requirements.txt && gunicorn raisethevoice.wsgi --log-file -
+web: gunicorn raisethevoice.wsgi --log-file -
