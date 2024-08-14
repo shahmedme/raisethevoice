@@ -1,9 +1,7 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { Col, Row } from 'antd';
 import { Outlet } from 'react-router-dom';
 import Sidebar from './views/Sidebar';
-// @ts-ignore
-import Prompts from 'components/Prompts';
+import Prompts from 'components/prompts';
 
 export default function AppLayout() {
   return (
